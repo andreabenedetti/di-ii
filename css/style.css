@@ -1,9 +1,9 @@
 body {
-	background: #C6C7C4;
+	background: #000000;
 	font-family: "Plain";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-weight: normal
 }
 
@@ -11,8 +11,19 @@ u:hover {
 	cursor: pointer;
 }
 
+section {
+	padding: 4rem 0 4rem 0;
+}
+
+#diii {
+	position: fixed;
+	font-size: 2rem;
+	right: 1rem;
+	color: white;
+}
+
 .testone {
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin-bottom: 3rem;
 	text-indent: 3rem;
 }
@@ -73,4 +84,14 @@ li {
 	width: 48%;
 	margin: auto;
 	margin-bottom: 5rem;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+body {
+	font-size: 1rem;
+}
+
+.testone {
+	font-size: 1.5rem;
+}
 }
