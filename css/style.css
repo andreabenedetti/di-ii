@@ -20,7 +20,7 @@ section {
 a, a:visited, a:hover {
 	color: #FFFFFF;
 	transition: .3s ease all;
-	mix-blend-mode: difference;
+	mix-blend-mode: exclusion;
 }
 
 #diii {
@@ -64,7 +64,7 @@ a, a:visited, a:hover {
 
 #syllabus {
 	background: #000000;
-	color: #C8FFBE;
+	color: #FFFFFF;
 	overflow: scroll;
 }
 
@@ -125,10 +125,6 @@ a, a:visited, a:hover {
 		transition: all .3s ease;
 	}
 
-	.hidden {
-		display: none;
-	}
-
 	.collapsed:hover {
 		cursor: pointer;
 	}
@@ -141,6 +137,12 @@ a, a:visited, a:hover {
 	.el-testo {
 		width: 33%;
 		margin-bottom: 3rem;
+		transition: .3s ease all;
+	}
+
+	.el-testo:hover {
+		cursor: pointer;
+		transform: scale(1.1);
 	}
 
 	.el-img {
