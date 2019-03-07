@@ -1,10 +1,11 @@
 body {
 	background: #000000;
-	font-family: "Plain";
+	font-family: "Authentic";
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1.5rem;
-	font-weight: normal
+	font-weight: normal;
+	line-height: 130%;
 }
 
 u:hover {
@@ -15,20 +16,43 @@ section {
 	padding: 4rem 0 4rem 0;
 }
 
+a, a:visited {
+	color: #AEFF14;
+	transition: .3s ease all;
+	mix-blend-mode: difference;
+}
+
+a:hover {
+	opacity: 0.5;
+}
+
 #diii {
 	position: fixed;
 	font-size: 2rem;
 	right: 1rem;
-	color: white;
+	top: 1rem;
+}
+
+#indietro {
+	position: fixed;
+	font-size: 2rem;
+	top: 1rem;
+	left: 1rem;
+}
+
+#diii, #indietro {
+	color: #AEFF14;
+	mix-blend-mode: difference;
 }
 
 .testone {
 	font-size: 2rem;
-	margin-bottom: 3rem;
+	margin-bottom: 5rem;
 	text-indent: 3rem;
+	line-height: 130%;
 }
 
-#syllabus {
+/*#syllabus {
 	background: #353B3C;
 	color: #FFFFFF;
 	overflow: scroll;
@@ -37,6 +61,18 @@ section {
 #verbi {
 	color: #000000;
 	background: #A2999E;
+	overflow: scroll;
+}*/
+
+#syllabus {
+	background: #000000;
+	color: #AEFF14;
+	overflow: scroll;
+}
+
+#verbi {
+	color: #000000;
+	background: #AEFF14;
 	overflow: scroll;
 }
 

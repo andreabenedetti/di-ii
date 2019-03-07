@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Authentic';
+    src:    url('Authentic/AUTHENTICSans-90.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Authentic';
+    src:    url('Authentic/AUTHENTICSans-130.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
