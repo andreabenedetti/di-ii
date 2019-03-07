@@ -16,14 +16,10 @@ section {
 	padding: 4rem 0 4rem 0;
 }
 
-a, a:visited {
+a, a:visited, a:hover {
 	color: #AEFF14;
 	transition: .3s ease all;
 	mix-blend-mode: difference;
-}
-
-a:hover {
-	opacity: 0.5;
 }
 
 #diii {
