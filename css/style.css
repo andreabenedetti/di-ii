@@ -18,8 +18,8 @@ section {
 }
 
 a, a:visited, a:hover {
-	color: #FFFFFF;
-	transition: .3s ease all;
+	color: #AEFF14;
+	/*transition: 1s ease all;*/
 	mix-blend-mode: exclusion;
 }
 
@@ -70,7 +70,7 @@ a, a:visited, a:hover {
 
 #verbi {
 	color: #FFFFFF;
-	background: #5A1AD2 ;
+	background: #AB06F7;
 	/*background: #EDFF71;*/
 	overflow: scroll;
 }
@@ -92,7 +92,7 @@ a, a:visited, a:hover {
 		padding: 5rem;
 		height: 90%;
 		z-index: 9999;
-		transition: .3s ease all;
+		transition: .4s ease all;
 		overflow: scroll;
 		-webkit-overflow-scrolling: touch;
 	}
@@ -106,8 +106,25 @@ a, a:visited, a:hover {
 	}
 
 	.scuro {
-		background: #222222 !important;
+		background: #111111 !important;
 		color: #353B3C !important;
+	}
+
+	@keyframes finezza {
+		0% {
+			background: #5A1AD2;
+			color: #FFFFFF;
+		}
+
+		50% {
+			background: #3F068A;
+			color: #FFFFFF;
+		}
+
+		100% {
+			background: #222222;
+			color: #353B3C;
+		}
 	}
 
 	h1, h2, h3 {
