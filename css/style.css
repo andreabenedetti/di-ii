@@ -17,7 +17,7 @@ section {
 }
 
 a, a:visited, a:hover {
-	color: #AEFF14;
+	color: #93FF93 ;
 	transition: .3s ease all;
 	mix-blend-mode: difference;
 }
@@ -48,7 +48,7 @@ a, a:visited, a:hover {
 	line-height: 130%;
 }
 
-/*#syllabus {
+#syllabus {
 	background: #353B3C;
 	color: #FFFFFF;
 	overflow: scroll;
@@ -58,24 +58,35 @@ a, a:visited, a:hover {
 	color: #000000;
 	background: #A2999E;
 	overflow: scroll;
-}*/
+}
 
-#syllabus {
+/*#syllabus {
 	background: #000000;
-	color: #AEFF14;
+	color: #EDFF71;
 	overflow: scroll;
 }
 
 #verbi {
 	color: #000000;
 	background: #AEFF14;
+	background: #EDFF71;
 	overflow: scroll;
-}
+}*/
 
 .verbo {
 	background: #C6C7C4;
 	color: #000000;
 	overflow: scroll;
+}
+
+.scheda {
+	background: #FFFFFF;
+	padding: 5rem;
+	overflow: scroll;
+	position: fixed;
+	height: 80%;
+	bottom: 0;
+	z-index: 9999;
 }
 
 h1, h2, h3 {
@@ -115,7 +126,7 @@ li {
 .el-img {
 	width: 48%;
 	margin: auto;
-	margin-bottom: 5rem;
+	margin-bottom: 3rem;
 }
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
