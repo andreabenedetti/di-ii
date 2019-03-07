@@ -90,10 +90,11 @@ a, a:visited, a:hover {
 		bottom: 0;
 		background: #FFFFFF;
 		padding: 5rem;
-		overflow: scroll;
 		height: 90%;
 		z-index: 9999;
 		transition: .3s ease all;
+		overflow: scroll;
+		-webkit-overflow-scrolling: touch;
 	}
 
 	.invisible {
