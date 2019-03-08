@@ -12,7 +12,7 @@
 
   <title>Design dell'intefaccia II</title>
 </head>
-<body>
+<body class="fade-out">
   <div class="scheda container invisible">
     <div class="row">
       <div class="col-12 contenuto-scheda">
@@ -20,12 +20,14 @@
     </div>
   </div>
   <div id="indietro"><a href="javascript:history.back()">←</a></div>
-  <div id="diii"><a href="#syllabus">DI.II</a></div>
+    <div id="diii"><a href="../">DI.II</a></div>
+        <div id="info"><a href="#syllabus">↓</a></div>
+
   <section id="verbi">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <p>Esercitazione 1. Osservare</p>
+          <p>Osservare (es. 1)</p>
           <div class="testone">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultricies integer quis auctor elit sed vulputate mi. Nisl nunc mi ipsum faucibus. Faucibus nisl tincidunt eget nullam non nisi est sit amet. Non blandit massa enim nec dui nunc. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Vestibulum sed arcu non odio euismod lacinia at quis risus. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam.</p>
             <ol class="list-group-flush">
@@ -84,6 +86,9 @@
   <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
   <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
   <script>
+    $(function() {
+    $('body').removeClass('fade-out');
+  });
 
     $(".el-testo").click(function() {
       $(".scheda").removeClass("invisible").fadeIn(300);
