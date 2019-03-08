@@ -1,3 +1,8 @@
+html {
+	scroll-behavior:smooth;
+	background: #000000;
+}
+
 body {
 	background: #000000;
 	font-family: "Authentic";
@@ -6,6 +11,12 @@ body {
 	font-size: 1.5rem;
 	font-weight: normal;
 	line-height: 130%;
+	transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 u:hover {
