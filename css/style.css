@@ -69,8 +69,8 @@ a, a:visited, a:hover {
 }
 
 #verbi {
-	color: #FFFFFF;
-	background: #AB06F7;
+	color: #000000;
+	background: #FFFFFF;
 	/*background: #EDFF71;*/
 	overflow: scroll;
 }
